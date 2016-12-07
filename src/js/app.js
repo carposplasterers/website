@@ -71,7 +71,7 @@
                 section = $target.attr('id'),
                 pageUrl = $target.data('page-url');
 
-            history.pushState(null, null, pageUrl);
+            history.pushState(null, null, '~' + pageUrl);
 
         });
 
